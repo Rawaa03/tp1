@@ -1,0 +1,17 @@
+TP1 : Introduction à Git et GitLab
+
+Objectifs :
+- Découvrir Git et GitLab.
+- Apprendre à gérer un dépôt.
+- Utiliser les branches et les commits.
+- Comprendre les Merge Requests.
+- Découvrir les pipelines CI/CD.
+
+Concepts clés :
+- Git : système de gestion de versions.
+- GitLab : plateforme collaborative.
+- Repository : dépôt contenant les fichiers du projet.
+- Branch : branche de développement.
+- Commit : enregistrement d'un ensemble de modifications.
+- Merge Request : demande de fusion d'une branche.
+- Pipeline CI/CD : automatisation des vérifications du projet.
