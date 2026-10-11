@@ -15,3 +15,5 @@ Concepts clés :
 - Commit : enregistrement d'un ensemble de modifications.
 - Merge Request : demande de fusion d'une branche.
 - Pipeline CI/CD : automatisation des vérifications du projet.
+
+Nouvelle fonctionnalité ajoutée.
