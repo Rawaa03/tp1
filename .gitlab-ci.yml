@@ -1,0 +1,21 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - echo "Preparation du projet"
+    - echo "Build termine"
+
+test_job:
+  stage: test
+  script:
+    - echo "Verification du fichier TP1.txt"
+    - test -s TP1.txt
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Simulation du deploiement"
