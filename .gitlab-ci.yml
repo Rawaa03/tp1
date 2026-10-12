@@ -1,0 +1,31 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - echo "Preparation du projet"
+    - echo "Build termine"
+
+test_job:
+  stage: test
+  script:
+    - echo "Verification de TP1.txt"
+    - test -s TP1.txt
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Simulation du deploiement"
+  validate_files:
+  stage: test
+  script:
+    - |
+      if [ -s fonctionnalite1.txt ] && [ -s fonctionnalite2.txt ]; then
+        echo "Tous les fichiers sont presents et non vides"
+      else
+        echo "Un ou plusieurs fichiers sont manquants ou vides"
+        exit 1
+      fi

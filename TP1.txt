@@ -17,3 +17,6 @@ Concepts clés :
 - Pipeline CI/CD : automatisation des vérifications du projet.
 
 Nouvelle fonctionnalité ajoutée.
+
+Fonctionnalite 1 : Ajout du premier fichier de fonctionnalite.
+Fonctionnalite 2 : Ajout du deuxieme fichier de fonctionnalite.
