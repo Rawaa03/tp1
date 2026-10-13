@@ -1,3 +1,4 @@
+
 stages:
   - build
   - test
@@ -14,6 +15,17 @@ test_job:
   script:
     - echo "Verification du fichier TP1.txt"
     - test -s TP1.txt
+
+validate_files:
+  stage: test
+  script:
+    - |
+      if [ -s fonctionnalite1.txt ] && [ -s fonctionnalite2.txt ]; then
+        echo "Tous les fichiers sont presents et non vides"
+      else
+        echo "Un ou plusieurs fichiers sont manquants ou vides"
+        exit 1
+      fi
 
 deploy_job:
   stage: deploy
