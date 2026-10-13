@@ -14,4 +14,7 @@ Concepts clés :
 - Branch : branche de développement.
 - Commit : enregistrement d'un ensemble de modifications.
 - Merge Request : demande de fusion d'une branche.
-- Pipeline CI/CD : automatisation des vérifications du projet.
+- Pipeline CI/CD : automatisation des vérifications du projet.*
+
+Fonctionnalite 1 : Ajout du premier fichier de fonctionnalite.
+Fonctionnalite 2 : Ajout du deuxieme fichier de fonctionnalite.
